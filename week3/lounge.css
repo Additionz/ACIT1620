@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman';
+}
+
+h1, h2 {
+    color: grey;
+}
+
+h1 {
+    border-bottom: 2px dashed black; 
+}
+
+p {
+    color: maroon;
+}
+
+em {
+    font-family: Impact, Velvitca, 'Arial', sans-serif;
+}
+
+p.text_green {
+    color: green;
+}
+
+p.text_light_blue {
+    color: lightblue;
+}
+
+p.text_purple {
+    color: purple;
+}
+
+p.text_red {
+    color: red;
+}

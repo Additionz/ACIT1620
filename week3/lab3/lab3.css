@@ -1,0 +1,63 @@
+@media (max-width: 1240px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    list-style-position: inside;
+    background-color: darkgray;
+    
+}
+
+header {
+    color: white;
+    padding: 40px;
+    margin: -8px;
+    background-color: rgb(33, 32, 32);
+
+}
+#name {
+    font-size: 250%;
+}
+
+.nav_button {
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+section {
+    border-style: outset;
+    border-color: lightgray;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 20px;
+    border-width: 5px;
+    background-color: white;
+    line-height: 1.5em;
+}
+
+abbr {
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: square;
+}
+
+#bcit_logo {
+    height: 30px;
+    width: 40px;
+}
+
+#github_logo {
+    height: 30px;
+    width: 40px;
+}
+a:hover {
+    color: red;
+}

@@ -1,0 +1,24 @@
+.universal_selector, .no_margin_padding {
+    margin: 0;
+    padding: 0;
+}
+
+div p {
+    color: purple;
+}
+
+ul.orange > li /* When ul class orange is greater than li */ {
+    color: orange;
+}
+
+h1.teal + p /* First child of h1.teal */ {
+    color: teal;
+}
+
+input[type="text"] /* Input type text */ {
+    border: 2px solid blue;
+}
+
+a:hover /* Whenever the mouse hovers over */ {
+    color: red;
+}
