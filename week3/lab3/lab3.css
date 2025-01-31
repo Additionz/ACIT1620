@@ -9,16 +9,18 @@ body {
     text-align: left;
     list-style-position: inside;
     background-color: darkgray;
+    margin: 0px;
+    padding: 0px;
     
 }
 
 header {
     color: white;
-    padding: 40px;
-    margin: -8px;
+    padding: 30px;
     background-color: rgb(33, 32, 32);
 
 }
+
 #name {
     font-size: 250%;
 }
@@ -58,6 +60,7 @@ ul {
     height: 30px;
     width: 40px;
 }
+
 a:hover {
     color: red;
 }
