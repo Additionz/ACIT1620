@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    border-style: dotted;
+}
+
+.translate {
+    margin: 10px;
+    background-color: lightblue;
+    transition: transform 0.5s ease;
+}
+
+.translate:hover {
+    transform: translate(50px, 30px);
+    /* transform: translateX(100px); 
+    transform: translateY(200px);  */
+}
+
+.rotate {
+    margin: 10px;
+    background-color: coral;
+    transition: transform 0.5s ease;
+    transform-origin: top left;
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.scale {
+    margin: 10px;
+    background-color: lightgreen;
+    transition: transform 0.5s ease;
+}
+
+.scale:hover {
+    transform: scaleX(1.2);
+    transform: scaleY(1.5);
+}
+
+.skew {
+    margin: 10px;
+    background-color: lightpink;
+    transition: transform 0.5s ease;
+}
+
+.skew:hover {
+    transform: skew(20deg, 10deg);
+}
+
+.matrix {
+    margin: 10px;
+    background-color: yellow;
+    transition: transform 0.5s ease;
+}
+
+.matrix:hover {
+    transform: matrix(1, 0.5, -0.5, 1, 30, 20);
+    /* matrix(scaleX, skewY, skewX, scaleY, translateX, translateY) */
+}
+
+.color-btn {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.color-btn:hover{
+    background-color: crimson;
+}
