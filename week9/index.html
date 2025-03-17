@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just a Generic Page</title>
     <script>
+        
+        // Sets a timer for when the function "wakeUpUser" begins in milliseconds 
         setTimeout(wakeUpUser, 5000);
+        // Functions are similar to user defined functions in Python JavaScript uses curly brackets instead of colons and also
+        // End with a semicolon 
+        // Indentation doesn't matter, but you should do it anyways.
         function wakeUpUser() {
-            alert("Are you going to stare at this boring webpage forever?")
+            alert("Are you going to stare at this boring webpage forever?");
         }
+        //Uses the same operators as python <= = >= == + - and one more === which checks if both variables are the same type
+        let name = "Owen";
+        // if conditions require the condition to be in parentheses and uses else if instead of elif compared to Python
+        if (age > 14) {
+            alert("Sorry this page is for kids only!");
+        }    
+        else if (age < 14) {
+            alert("Good job");
+        }
+        else {
+            alert("Welcome " + name + "!");
+        }
+        const age = 10;
+        // Constants are always the same, so age is always 10 and can't be changed down the line
+        let width
+        // Variables don't need to be given a value when declared, also don't need let to define variables
     </script>
 </head>
 <body>
@@ -17,5 +39,31 @@
         I am just a paragraph, looking for something exciting!
 
     </p>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Kids Only</title>
+    <script src="index.js">
+        // let message = "Howdy " + "partner";
+        // console.log(message);
+        // // puts variable message in console accessed via F12
+        // let name = "Joe";
+        // let i = 0;
+        // while (i < 2) {
+        //     document.write("Happy birthday to you.<br>");
+        //     i = i + 1;
+        // }
+        // document.write("Happy birthday dear " + name + ",<br>");
+        // document.write("Happy birthday to you.<br>");
+    </script>
+</head>
+<body>
+    
 </body>
 </html>
