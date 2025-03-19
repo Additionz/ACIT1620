@@ -41,8 +41,9 @@ let urls = [
     'https://i.ibb.co/sjvVrG3/fruit-plyh.jpg', 'https://i.ibb.co/g3tqj4w/fruit-zxcv.jpg', 'https://i.ibb.co/88Hy4rD/fruit-wert.jpg', 
     'https://i.ibb.co/NmNMLKF/fruit-astt.jpg', 'https://i.ibb.co/qp8Q1G6/fruit-dfgh.jpg', 'https://i.ibb.co/9thfVhB/fruit-hjkl.jpg',
     'https://i.ibb.co/YtTfqvD/fruit-dcnj.jpg', 'https://i.ibb.co/CVwKM8Z/fruit-ecuh.jpg', 'https://i.ibb.co/ccNyKX0/fruit-uzxc.jpg'
-    ]
-let randomUrls = shuffle(urls)
+    ];
+
+let randomUrls = shuffle(urls);
 
 /*
 In the following line of code, document.querySelectorAll 
@@ -87,8 +88,8 @@ const images = document.querySelectorAll('.card img');
 /*Your code goes here for step 2*/
 
 for (let i = 0; i < images.length; i++) {
-    images[i].src = randomUrls[i]
-}
+    images[i].src = randomUrls[i];
+};
 
 
 const h1 = document.querySelector('h1');
