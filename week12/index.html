@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=w, initial-scale=1.0">
+    <title>Events</title>
+    <script>
+        // window.onload = pageLoadedHandler;
+        // function pageLoadedHandler() {
+        //     alert("Im alive");
+        // }
+        window.onload = init;
+        
+        function init() {
+            let image = document.getElementsByTagName("img");
+            for(let i = 0; i < image.length; i++) {
+                image[i].onclick = showAnswer;
+            }
+        }
+
+        // function init() {
+        //     let image = document.getElementsByTagName("img");
+        //     for(let i = 0; i < image.length; i++) {
+        //         image[i].onmouseover = showAnswer;
+        //         image[i].onmouseout = reblurAnswer;
+        //     }
+        // }
+
+        function showAnswer(eventObj) {
+            let image = eventObj.target;
+            let name = image.id;
+            name = "images_Week12/" + name + ".jpg";
+            image.src = name;
+
+            setTimeout(reblurAnswer, 2000, image);
+        }
+
+        function reblurAnswer(image) {
+            // let image = eventObj.target;
+            let name = image.id;
+            name = "images_Week12/" + name + "blur.jpg";
+            image.src = name;
+        }
+    </script>
+    <style>
+        body {
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img id="zero" src="./images_Week12/zeroblur.jpg">
+    <img id="one" src="./images_Week12/oneblur.jpg">
+    <img id="two" src="./images_Week12/twoblur.jpg">
+    <img id="three" src="./images_Week12/threeblur.jpg">
+    <img id="four" src="./images_Week12/fourblur.jpg">
+    <img id="five" src="./images_Week12/fiveblur.jpg">
+</body>
+</html>

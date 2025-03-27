@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+</head>
+<body>
+    <button id="colorBtn">Click Me</button>
+    <script>
+        let button = document.getElementById("colorBtn");
+        button.addEventListener("click", function() {
+            document.body.style.backgroundColor = "lightblue";
+        });
+
+        button.addEventListener("dblclick", function() {
+            document.body.style.backgroundColor = "white";
+        });
+    </script>
+</body>
+</html>
